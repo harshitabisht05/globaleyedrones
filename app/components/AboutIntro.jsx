@@ -1,0 +1,1 @@
+// An About Page component that can be used in the Home page and About page
