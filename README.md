@@ -1,6 +1,6 @@
 # 🛰 GlobalEye Drones  
 *Vision Beyond Imagination*
-
+- For more Detail visit: [Globaleye Drones](https://docs.google.com/document/d/10t7SslvsuMNOTY0cg9A-hN-ME_h2e2zEJNKVW0cjKiw/edit?usp=sharing)
 ## 🌐 Overview  
 GlobalEye Drones is a modern website showcasing intelligent drone technology for industries like agriculture, surveillance, delivery, and environmental monitoring. The platform highlights our fleet, use cases, case studies, and contact options.
 
