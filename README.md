@@ -55,6 +55,7 @@ git clone https://github.com/harshitabisht05/globaleyedrones.git
 
 # Install dependencies
 npm install
+npm install framer-motion
 
 # Run locally
 npm run dev
