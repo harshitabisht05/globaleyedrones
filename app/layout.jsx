@@ -54,8 +54,12 @@ export default function RootLayout({ children }) {
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
+          <div className="bg-white dark:bg-black transition-colors duration-300">
             {children}
-          <Footer />
+  {/* Other page content */}
+  <Footer />
+</div>
+
         </ThemeProvider>
         
         </body>
