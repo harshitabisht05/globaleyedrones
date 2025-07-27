@@ -12,11 +12,11 @@ export default function SolutionCard({ title, image, challenge, solution }) {
           className="rounded"
         />
       </div>
-      <h3 className="text-xl font-bold text-[#0077b6] mb-2 text-center">{title}</h3>
-      <p className="text-sm mb-1">
+      <h3 className="text-xl font-bold text-[#0077b6] mb-2 text-center" style={{ fontFamily: 'var(--font-heading)' }}>{title}</h3>
+      <p className="text-sm mb-1" style={{ fontFamily: 'var(--font-body)' }}>
         <strong>Challenges:</strong> {challenge}
       </p>
-      <p className="text-sm">
+      <p className="text-sm" style={{ fontFamily: 'var(--font-body)' }}>
         <strong>GlobalEye Solution:</strong> {solution}
       </p>
     </div>

@@ -1,7 +1,8 @@
 'use client';
 
+import { motion } from 'framer-motion';
 import IndustriesSection from '../components/IndustriesSection';
-import SolutionCard  from '../components/SolutionCard'; 
+import SolutionCard from '../components/SolutionCard';
 import Footer from '../components/Footer';
 
 export default function SolutionsPage() {
@@ -39,15 +40,36 @@ export default function SolutionsPage() {
   ];
 
   return (
-    <main className="min-h-screen py-16 px-4 bg-white dark:bg-black text-gray-800 dark:text-white">
-      <h1 className="text-4xl font-heading text-center text-[#0077b6] mb-12">Our Solutions</h1>
-      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+    <main className="py-20 text-black dark:text-white px-6 bg-gradient-to-br from-white via-blue-100 to-blue-300 dark:from-black dark:via-gray-900 dark:to-gray-800 transition-colors duration-500" style={{ fontFamily: 'var(--font-heading)' }}>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="max-w-4xl mx-auto text-center mb-12"
+      >
+        <h1 className="text-4xl md:text-5xl font-extrabold text-[#0077b6] dark:text-blue-300 mb-4" style={{ fontFamily: 'var(--font-heading)' }}>
+          Our Solutions
+        </h1>
+        <p className="text-gray-700 dark:text-gray-300 text-lg" style={{ fontFamily: 'var(--font-body)' }}>
+          From smart farming to critical infrastructure and emergency response, our AI-powered drones are transforming industries.
+        </p>
+      </motion.div>
+
+      <section className="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
         {solutions.map((item, index) => (
-          <SolutionCard key={index} {...item} />
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+          >
+            <SolutionCard {...item} />
+          </motion.div>
         ))}
-      </div>
-      <IndustriesSection/>
-      <Footer />
+      </section>
+
+      <IndustriesSection />
     </main>
   );
 }

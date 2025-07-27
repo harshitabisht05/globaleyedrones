@@ -65,7 +65,6 @@ export default function CaseStudiesPage() {
         ))}
 
       </div>
-      <Footer />
     </div>
   );
 }

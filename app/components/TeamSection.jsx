@@ -7,17 +7,17 @@ const teamMembers = [
   {
     name: 'Harshita',
     role: 'Frontend Developer Intern',
-    image: '/images/team/harshita.jpg', // optional: if added
+    image: '/images/Team/harshita.jpg', // optional: if added
   },
   {
     name: 'Paridhi',
     role: 'Frontend Developer Intern',
-    image: '/images/team/paridhi.jpg',
+    image: '/images/Team/paridhi.jpg',
   },
   {
     name: 'Ojaswee',
     role: 'Frontend Developer Intern',
-    image: '/images/team/ojaswee.jpg',
+    image: '/images/Team/ojaswee.jpg',
   },
 ];
 
@@ -48,8 +48,8 @@ export default function TeamSection() {
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover border-4 border-[#00b4d8]"
               />
             )}
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{member.name}</h3>
-            <p className="text-sm text-[#00b4d8] dark:text-[#00b4d8]">{member.role}</p>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white" >{member.name}</h3>
+            <p className="text-sm text-[#00b4d8] dark:text-[#00b4d8]"style={{ fontFamily: 'var(--font-body)' }}>{member.role}</p>
           </motion.div>
         ))}
       </div>

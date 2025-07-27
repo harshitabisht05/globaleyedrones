@@ -61,7 +61,7 @@ export default function HeroSection() {
         className="text-center max-w-2xl mx-auto relative z-10"
       >
        <motion.h1
-  className=" text-3xl sm:text-4xl md:text-6xl mb-4 bg-gradient-to-r from-blue-600 to-teal-400 bg-clip-text text-transparent"style={{ fontFamily: 'var(--font-heading)' }}
+  className=" text-xl sm:text-4xl md:text-6xl mb-4 bg-gradient-to-r from-blue-600 to-teal-400 bg-clip-text text-transparent" style={{ fontFamily: 'var(--font-heading)' }}
 
   initial={{ scale: 0.8, opacity: 0 }}
   animate={{ scale: 1, opacity: 1 }}

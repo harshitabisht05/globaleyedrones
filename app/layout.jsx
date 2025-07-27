@@ -55,8 +55,9 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
             {children}
-          {/* <Footer /> */}
+          <Footer />
         </ThemeProvider>
+        
         </body>
     </html>
   );

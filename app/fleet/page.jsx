@@ -63,10 +63,11 @@ const drones = [
 export default function FleetPage() {
   return (
     <>
-      <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-500 py-20 px-6">
-        <div className="max-w-7xl mx-auto text-center">
+      <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white bg-gradient-to-br from-white via-blue-100 to-blue-300 dark:from-black dark:via-gray-900 dark:to-gray-800 transition-colors duration-500 py-20 px-6">
+        <div className="max-w-7xl mx-auto text-center" >
           <motion.h2
             className="text-4xl md:text-5xl font-bold mb-4"
+            style={{ fontFamily: 'var(--font-heading)' }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -75,6 +76,7 @@ export default function FleetPage() {
           </motion.h2>
           <motion.p
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto"
+            style={{ fontFamily: 'var(--font-body)' }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
@@ -95,7 +97,6 @@ export default function FleetPage() {
         </div>
       </main>
 
-      <Footer />
     </>
   );
 }

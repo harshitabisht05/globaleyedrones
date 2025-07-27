@@ -7,18 +7,16 @@ import FeaturesSection from './components/FeaturesSection';
 import IndustriesSection from './components/IndustriesSection';
 import MissionSection from './components/MissionSection';
 import CTASection from './components/CTASection';
-import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <main className="bg-white text-gray-900">
+    <main>
       <HeroSection />
-      {/* <About /> */}
+      <About />
       <FeaturesSection />
       <IndustriesSection />
-      {/* <MissionSection /> */}
+      <MissionSection />
       <CTASection />
-      <Footer />
     </main>
   );
 }
