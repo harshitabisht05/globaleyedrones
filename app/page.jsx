@@ -7,6 +7,7 @@ import FeaturesSection from './components/FeaturesSection';
 import IndustriesSection from './components/IndustriesSection';
 import MissionSection from './components/MissionSection';
 import CTASection from './components/CTASection';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <IndustriesSection />
       {/* <MissionSection /> */}
       <CTASection />
+      <Footer />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import CaseStudyCard from '../components/CaseStudyCard';
+import Footer from '../components/Footer';
 
 const caseStudies = [
   {
@@ -60,8 +61,11 @@ export default function CaseStudiesPage() {
       <div className="grid md:grid-cols-2 gap-10">
         {caseStudies.map(cs => (
           <CaseStudyCard key={cs.id} {...cs} />
+
         ))}
+
       </div>
+      <Footer />
     </div>
   );
 }

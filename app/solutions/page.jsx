@@ -2,6 +2,7 @@
 
 import IndustriesSection from '../components/IndustriesSection';
 import SolutionCard  from '../components/SolutionCard'; 
+import Footer from '../components/Footer';
 
 export default function SolutionsPage() {
   const solutions = [
@@ -46,6 +47,7 @@ export default function SolutionsPage() {
         ))}
       </div>
       <IndustriesSection/>
+      <Footer />
     </main>
   );
 }
