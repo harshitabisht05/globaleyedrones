@@ -2,7 +2,7 @@ import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-gray-800 dark:bg-gray-900 dark:text-white pt-12 pb-6 px-6 mt-16 transition-colors duration-300">
+    <footer className="bg-white text-gray-800 dark:bg-black dark:text-white pt-12 pb-6 px-6 mt-16 transition-colors duration-300">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* Logo & Vision */}
@@ -86,7 +86,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div
-        className="text-center text-gray-500 dark:text-gray-400 text-xs mt-10 border-t border-gray-200 dark:border-gray-800 pt-4"
+        className="text-center text-gray-500 dark:text-gray-400 text-xs mt-10 pt-4 border-none"
         style={{ fontFamily: 'var(--font-body)' }}
       >
         © 2025 GlobalEye Drones. All rights reserved.
