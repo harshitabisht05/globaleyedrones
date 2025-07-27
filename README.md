@@ -55,6 +55,8 @@ git clone https://github.com/harshitabisht05/globaleyedrones.git
 
 # Install dependencies
 npm install
+npm install framer-motion
+npm install react-icons
 
 # Run locally
 npm run dev
