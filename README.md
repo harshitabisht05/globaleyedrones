@@ -187,4 +187,4 @@ All rights reserved by Sentienta QualityAI. This project is part of an internal 
 ## Next Projects
 - UniNow (Completed)
 - GlobalEye AI (Completed)
-- GlobalEye Drones (Ongoing)
+- GlobalEye Drones (Completed)
